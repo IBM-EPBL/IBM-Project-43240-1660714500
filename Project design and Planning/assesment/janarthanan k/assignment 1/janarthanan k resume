@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>janarthanan resume</title>
+        <link rel="icon" type="image/x-icon" href="\Users\ELCOT\Pictures\jk.jpg">
+        <style>
+            header{background-repeat:repeat-x;}
+            body{margin:30px 50px; padding: 30px 200px 30px 200px; outline-style: inset ;background-color:rgba(90,180,135,0.6);border:7px red;}
+            button{color:black;text-align: center;text-decoration-color: rgb(131, 231, 31);}
+            header{background-color: #f00;
+                background-image:url('data:image/jpeg;base64,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');
+             padding: 30px;
+             text-align: left;
+            color: black;
+            }
+            img.mani{float:right;}
+            button{border-radius: 10px; float:right; background-color: tomato;color:black;font-size:10px;height:25%;width:25%;}
+            button:hover{background-color:gold;color:red}
+            .row{float:left;width:25%;padding:20px;}
+            .col:after{content:"";display: table;padding:20px;clear:both}
+            #obj{width:100%;font-family: Arial, Helvetica, sans-serif;font-style: italic;font-display:inherit;background-color:rgb(252, 236, 9);height: 250px;overflow: auto;}
+            #obj1{width:100%;font-family: Arial, Helvetica, sans-serif;font-style: italic;font-display:inherit;background-color:rgb(252, 236, 9);height:225px;overflow: auto;}
+            #obj2{width:100%;font-family: Arial, Helvetica, sans-serif;font-style: italic;font-display:inherit;background-color:rgb(252, 236, 9);height:225px;overflow: auto;}
+            #bod th,#bod td{border:double;}
+            #bod th{background-color: #277067; color:black;}
+            #bod td{background-color: #339905; color:black;}
+            #bod td:nth-child(even){background-color: #00aaaa; color:black;}
+            ul{list-style-type:disc;}
+            .pro{font-size: 125%;font-weight: bold ; color:black;background-image:url('data:image/jpeg;base64,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');}
+            a:hover{color:orange;}
+            .pro h4{color:black;background-color: yellowgreen;}
+            #mod{width:auto}
+            #mod th,#mod td{border:dotted;}
+            #mod th{background-color: #070007; color:red;}
+            #mod td{background-color: #fff; color:black;}
+            #mod td:nth-child(odd){background-color: #00aaaa; color:black;}
+            #lis li{font-size: medium;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+            
+
+        </style>
+    </head>
+    <body>
+        <header>
+        <img  class="mani"src="\Users\ELCOT\Pictures\jk.jpg" alt="janarthanan profile" width="200" height="200"></img><br>
+        
+        
+
+         <h1>JANARTHANAN K</h1>
+         <h3>Engineer</h3>
+         <a href="https://mail.google.com">
+         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKcAAAB5CAMAAABr/MGBAAAAwFBMVEXm4tbnWU339O21tav29vaxOC/39/f19fLs6uHgVEjwsKr/+vmrMCbIkIzih3ytRDrmVUi6o5js4tbY1cnRz8P+9u7bXVHe28/01NDmpZ/Lyb3rmpP97+f949veTkHbZ1vbd2zeWU3TbWLDr6XIp53BwLX+8O/xv7nebmbooJTij4b3ycH1zMj50snwubD729PMRzvpfnS9RDjQjoPDm5HOl4zRg3fv2c3Se3HWoZzhsq++e3W0YFqjIBHw2tikMymfxFVsAAAGeElEQVR4nNWcDXuaOhiG8ah4ItZmKviJSLsKWj+6tmu7rmf9///qBKE0QMhLMIHuua5t3WRw+yTvkxe8jKZ/LbVSf21F/6qRH2N1WvUqZukk/gheSXB+XaU4I6/rVQSRGFyaU9eN9cTr7o1OvZp0vcnaSBpGcerGce5bCFmbxT81atElDK4zn6zZnPq662DcIEJbuz5Me44IAsbImtKgMad+XC0bkbB1a9ZDad46+ANi6RwNmrMTYX4ccAKdVj72HfJrsbFoCn8Sz9HIT31NY5JDUP9YvaXH7bKRoFjZCc5Oy+gmjwjezKFiUNPzcQoCzT/maOinfnTShzSwW+3YL6ZuhqHh7hKcxjx7CHk3q311mMcVYiDgrUFx6uuM4yGoU1XdM8Y8lBPN0JBzYrGPwu68kihdbBAbIB74kNNz2UcRS/t75Zaa+z5rzEN1DYqzm38cdlTX/eKQLeLPy08LchJLN0rH3t4y6pzFqQOcpO6PyijN/Spvaor6qTJKmaFZmpOU3dxWMEtNextfmIWLQ069OGdj6e+kg1LNUa7uLoT8DFqoruSxTzZHTKG7nignmaR9qXV/5IRmJPe+Lc5J3p0vbxk1Dw50TXTXbpfilDj2iy5Q5yczy3KSe4G+jCg1j3663c0oMLM0p5wWyuQtlEnM0pyknM69bV7MuStQoHDMz+IMWqizxn6/KjrmZ3KSFqr82JsHODTv23I4yd1o2fbZ7sNj3m4LcALgqF9mvYeao0D3bQFO/GMLDA+2xNtnsDlqoKsUJsTZf/auAEtd0fb5uIVml/PweCnIOdD2UHyQ9lnAUtIcAU0uWj02v4lzas8HHzizdSgcpYspVOfW03WzFKemkajjnpzUfUFQG2qOsPPYbJbl1AZdYIVbFmqh4NC0Hq6bZ3Bqg1vm4xT6CvDY21OXfw7k/2w2z+IksxSYWBh6+myCC6X79L15Nqc28IByQj7vkQn3KcJJ/s/rpgROYimQUNjJb5/tOZDt6CU281xObQAlFNqyo9QEp7dDmXk2J0koIFfYY296QJ2jK9pMCZzEUv40wyj7yMTu8+OXmNlsSubUBvuVy72om2qhzFugQwjWSfmcBRLK9+g6h47+iHbpnJrm8auC/tQp/RFLWugqM+byOLXnDTdlMIoemUDNEXafGGbK4wTXUWR5ZvDkiB+a6Co7M+VyEkv7fEutzQJ6cuS+fM/BlMgJJtTS5xcQyqaREk4S+vwbCH5mcsyUzUnKCbwJz3sPDiuNVHFq2i388JJp5opnpgJO0kOBDwazZrp8M1VwkoT6IWgpaKYSTm3wzP2AKiPmOlkBJxHUllLKWSer4YQSijLzCR5zhZzwjXN4Or+QmQo5SVvad0EzX64LYqrjBHsogpm8BaqLM3i8w7kf5a+TlXJy1lEErJPVcmoDb8UCxUjITPWcQUK5WU5BM6vgZLSlOLdrr5OTrKPJhCq0TtbAebpxjs/D7dpr5qQe78AdXK2cUUIVbDpq5AwSaikW7fVwEksfBNbJGjlHg2FpzOo4h6Pg99kX5xyPxpGpX5ozNDMkvvm6nB9mnmFpBZzjJGY5S9VzjoZZcvFyUs2ZMTOUcEIp5hyN8l4RtFQpZ46ZocQsVck55GEKzlJ1nGNGAaUkkFDKOPNnJv1eaueEzYyOq5VzPOPOTFrDYqGvhLPQmMcqVE4KOIfFzYz+Qy2cYmaGgi2VzSkwMxNvrmLOMmaeBPVQUjlLmhmKb6lMTmCdhMRNKHmc41nZMY/FKSdpnMJpxDxJrqWSOMezguskpDxQOZxSzIxOpZCzdBqxxE4oCZzDG2lmRidUwjmayaXUmJaCnJjPKa2AksokFMDpAX4qMDNUOqGynL9ozonL83N8I7OAUprxOduv9PeL1w6HcyQvjVhKzNIM5zv9PeiWsc3nPH+dhDTL5+xd/qE5018s/+QcyU4jlkb5nL/p7+mTgZ8vWZwSmo5Cisc+w5nc96ClLxIzNOIc3ihJI5ZGTM7e7+Q+EmSGTmjQkHOmtoCSCi1NcvbekvtynH7YUaABp9I0YmmW4uz99/bnc/OdeH8bw55bGMecs5tqKbWTpTFnr/f+9mpQexlp4dYsnaCYdn0LIUy0fKnazBB09u29F+j98u1ht6YwM/sv7aabOVFX+7cWPV9cXPx69f7YhpHcr4q1n9XHDmKtCre2ii6lG9TlE6//nfuDfVkFdfQXqKX/D7wXL6Dio2DqAAAAAElFTkSuQmCC" alt="gmail.png " width="20" height="20"></img></a>
+         <a href="mailto:janarthanank2002@gmail.com">: janarthanank2002@gmail.com</a> <br>
+         <table>
+         <tr><td><img src="data:image/jpeg;base64,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" alt="mobile.png" width="20" height="20"></img></td>
+         <td><p>+91 8754358931 </p></td></tr>
+         </table>
+        <button onclick="document.location='https://drive.google.com/drive/u/0/my-drive'">downloadresume</button>
+        </header>
+
+        <div class="row">
+        <div id="obj">
+        <h3 style="color:rgb(85, 11, 221);border-bottom-style:outset;">Objective :</h3>
+        <p>To accomplish the high career growth my continuous learning process and keep myself to create wide opportunity for my carrier through my dynamic knowledge with my skills and develop myself as a well knowledge technical person in organization</p>
+        </div>
+        </div>
+        <div class="col">
+        <div class="row">
+        <div id="obj1">
+        <h3 style="color:rgb(85, 11, 221);border-bottom-style:outset;">skills :</h3>
+        <ol>
+            <li>python programing</li>
+            <li>c computting</li>
+            <li>embedded system</li>
+            <li> matlab</li>
+            <li>git</li>
+            <li>VLSI</li>
+            <li> HTML</li>
+            <li>CSS</li>
+        </ol>
+         </div>
+        </div>
+
+        <div class="row">
+        <div id="obj2">
+        <h3 style="color:rgb(85, 11, 221);border-bottom-style:outset;"> Tools :</h3>
+        <ul>
+        <li>microsoft office</li>
+        <li>git</li>
+        <li>tinkercad</li>
+        <li>adobe phtoshop</li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        <h3 style="border:4px inset red;color:solid#339905;background-color: #666;">Education :</h3>
+        <div >
+            <table id="bod" width="100%">
+            <tr>
+                <th>desiginiation</th>
+                <th>year</th>
+                <th> School/college</th>
+                <th>board/univercity</th>
+                <th>score</th>
+
+            </tr>
+            <tr>
+                <td>2019 - 2023</td>
+                <td>B.E - ECE</td>
+                <td> SCAD college of engineering and technology,tirunelveli</td>
+                <td>ANNA university</td>
+                <td> 8.76</td>
+
+            </tr>
+            <tr>
+                <td>2018 - 2019</td>
+                <td>HSC</td>
+                <td> St. xavier's hr.sec.school,tirunelveli</td>
+                <td>state board</td>
+                <td> 83.7 %</td>
+                
+            </tr>
+            <tr>
+                <td>2016 - 2017</td>
+                <td>SSLC</td>
+                <td> St. xavier's hr.sec.school,tirunelveli</td>
+                <td>state board</td>
+                <td> 93.4 %</td>
+                
+            </tr>
+        </table>
+        </div>
+        <h2 style="color:#05e;border:5px solid orangered"> Projects :</h2>
+         <div class="pro">
+            <ul>
+            <h4>1. Automatic Controlled Fan</h4>
+            <li> abstract :
+                <p> automotic controlled fan is a project  to controlling the motor speed by using PIR sensor and temperature sensor and displaying the information in lcd display(16*2). in the project pir sensor is a high priority sensor by detecting a human or animal (living objects). tempurature sensor used to controll the motor speed according to the surrounding temperature.</p></li> 
+            <li> time period: 06-04-2022 to 10-04-2022</li>
+            <li>team size: individual</li>
+            <li>link:<a href="https://github.com/janarth73/janarth_embeddedproject/blob/main/automatic%20human%20detected%20%20temperature%20controlled%20motor.pdsprj">automatic controlled fan</a></li>
+            </div>
+            <div class="pro">
+            <h4> 2.Eletrifided the Room on Living Objects Presence</h4>
+            <li> abstract :
+                <p> eletrifided the room on living objects presence is a project  to controlling the lights and fans during human or animal (living objects) presence. PIR sensor used to detecting the motion of human objects with in range in 7 meter. to object is not detected the lights and fans will be off.</p></li>
+
+           <li> time period: 08-12-2021 to 12-12-2021</li>
+            <li>team size: individual</li>
+            </div>
+            <div class="pro">
+            <h4>3. Digital Dice</h4>
+            <li> abstract :
+                <p> this project is controlling the blinking of serious of led lights. this use to for kids to playing the snake,ludo, sudoko games. </p></li>
+
+            <li> time period: 05-06-2021 to 12-06-2021</li>
+            <li>team size: individual</li>
+            <li>link:<a href="https://github.com/janarth73/janarth_embeddedproject/blob/main/digital%20dice.pdsprj">digital dice</a></li>
+            </ul>
+            </div>
+        </div>
+        
+        
+        <h1 style="color:orange;border: 4px lightsalmon ">contacts :</h1>
+        <table id="mod">
+            <tr>
+            <td>platform</td>
+            <td>username</td>
+            <td>link</td>
+            </tr>
+            <tr>
+                <td> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIMAAACDCAMAAACZQ1hUAAAAYFBMVEUAd7X///8AdbQAc7MAaa/0+PsAcbIVe7gdfbjf6vNfnMj5/P0Ab7Hv9vqCqs9blMTN3uukwdtAi7/V4+9PjsDo8fd2ps1tn8kwfriyzeJIib6cvdm80eSJr9EAZq5BhbxqdLMBAAADQ0lEQVR4nO2cbdOqIBCGcVGyoNQUXyrr///LR+1YCjUNlKxnhvtTM+h4tbvgLrqSYCqeZuUxJksqPpZZymdXJZPf+aFmggEsygDQXaM+5C8ZZMXEspefgAhWSZ0hE8wRwF1MZApDlDizwSgQSTRlkIVwTNBLFPLJEKEg9BDRgyHBQeggkpHhjIXQQWR3Bhm6DsenQMiBoaJoCN0UrXqGHM8TvUTeMZTIDGVAeI2KQKDmJHW7ROtiKclwXdFPT1Ki26EkR7zF4S44khidYdm8zctrIVG6cL7/QUDDOEkKQMwxKC3zPeeRvBTOE+9/EsftoxJpcCBENS0LJSAkXLSY16Y5QmiKbTCX+wScVQpCEG1cG0KkKkPQuo6IWmoMF8fOgBPXGPLQNYOGEMirY4ZbpDGkru2wUadmv1njloGIRmNwXppCrSJsHbuCvDDEzn0tAmweESh7JQDTpfLs3hMDBGv34/KEtmlFRF01222eJRSzLqUiDENBsUvC/05AWa8frWbAFNG3I2OwgBD0tqsO5e7YOfH7EIJNe5jrsV+yOagaRiCM2+fzEXlpvy5LIH67VsdqahH1I+Km3WGa03cVAWzeM6i39X3YuaHVb/YBP9NvIsOMAUI9/RyUflOWGNpBzzbGsdoewojh+sYKw2n2ECYM8vweoXOH9a3GhOFFNE7V2kKYMHwQry1n6A8ZrJPhXzIEzM4QP2WwjAgbhr2Ur4dSu+lpzMCb3S2uT9XlxVh0s3KGKUNah322BTQs9GrZsi4wZGiuj38qXpTsdjPDjCGd3qRFq49bVQZGDHzmb9ho+ydyeYZmburnyw0PBqu9LCMGJexpoR6wt5oYJgxcsTRQ9dzI6sGZYQ4zF9srR/DCPYOaVvHEZqX8jkHNqxAYtA1Wz+AZPINn8AyewTN4Bs/gGTyDZ/AM+jOUxz6G9gxFrbv716YVWTEQslNFP4+MKtQjLF9YparGAXg78vlcLy8vLy9jraHvYA39F2voQ1lDP84a+pKw+7NIzVfRp7aKfr2gwoyIe98ibv9mKPH7WPt3WIZ+XqSW4r6pOBgZohN+XzNSfzeb9nevos89WEO/f7CK7x4Ea/j+w1DCO/oOxnxX4A+AkToffUWwRAAAAABJRU5ErkJggg==" alt="linked in png" width="20" height="20">
+                <td><p>janrthanan k</p></td>
+                <td><a href="https://www.linkedin.com/in/janarthanan-k-81b214193/">janarthanank</a></td>
+                
+            </tr>
+            <tr>
+                <td> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj7M20JLuvBoz71AQdyv075z5imqDNSkNKU8VNpDN8Mw&s" alt="hackerrank png" width="20" height="20">
+                <td><p>janrthanan k</p></td>
+                <td><a href="https://www.hackerrank.com/janarthanank2002">janarthanank</a></td>
+                
+            </tr>
+            <tr>
+                <td> <img src="data:image/png;base64,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" alt="github png" width="20" height="20">
+                <td><p>janrthanan k</p></td>
+                <td><a href="https://github.com/janarth73">janarthanank</a></td>
+                
+            </tr>
+        </table>
+        <h3 style="border:4px inset red;color:solid#bb99aa;background-color: #666;">Acivements :</h3>
+        <ul  id ="lis">
+            <li>Smart Space Technology paper presented certificate at Rohini Engineering college.</li>
+            <li>“3D Integrated Circuits” paper presented certificate at PSN engineering college</li>
+            <li>Accomplished intra college paper presentation event.</li>
+        </ul>
+        <h2 style="border:4px inset yellow;color:solid#339905;background-color: #666;">ABOUT ME:</h2>
+        <table width="50%">
+            <tr><td>father name :</td>
+            <td>k kumaran</td></tr>  
+            <tr><td>mother name:</td>
+                <td>chitra k</td></tr>
+            <tr><td> nationality :</td>
+                <td>Indian</td></tr>
+            <tr><td>languages known :</td>
+            <td>sowrastra, english,tamil</td></tr>
+            <tr><td>date of birth:</td>
+               <td> 06/04/2002</td></tr>          
+
+        </table>
+        <h3 >your suggestion :</h3>
+        <form  action="/jana.php" method="post">
+            <label for="fnmae" > name :</label>
+            <input type="text" placeholder="enter ur name" id="fnmae" name="fname" ><br>
+            <label for="fname">gender :</label><br>
+            <input type="radio" id="fnmae" name="fnmae"> 
+            <label for="male"> MALE</label><br>
+            <input type="radio" id="fnmae" name="fnmae"> 
+            <label for="male"> FEMALE</label><br>
+            <input type="radio" id="fnmae" name="fnmae"> 
+            <label for="male"> NOPREFER TO SAY</label><br>
+            <label for="main">study :</label><br>
+            <input type="checkbox" id="fnmae" name="fnmae"> 
+            <label for="male"> SSLC</label><br>
+            <input type="checkbox" id="fnmae" name="fnmae"> 
+            <label for="male"> HSC</label><br>
+            <input type="checkbox" id="fnmae" name="fnmae"> 
+            <label for="fnmae"> Dipalomo</label><br>
+            <input type="checkbox" id="fnmae" name="fnmae">
+            
+            <label for="male"> UG</label><br>
+            <input type="checkbox" id="fnmae" name="fnmae"> 
+            <label for="male"> PG</label><br>
+            <label for="f">gamil</label><br>
+            <input type="mail" placeholder="@gmail.com" id="f"><br>
+            <label for="t"> queries</label><br>
+            
+            <textarea name="t" cols="50" rows="20"></textarea>    ><br>
+            <input type="submit" value="sumbit" style="color:black;background-color:yellow"><br>
+
+        </form>
+
+
+
+    </body>
+</html>
