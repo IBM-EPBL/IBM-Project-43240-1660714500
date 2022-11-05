@@ -1,0 +1,71 @@
+<!DOCTYPE html>  
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<title>fashion design Login Page </title>
+<style>  
+Body
+{  
+       font-family: Calibri, Helvetica, sans-serif;
+       padding: 40px;
+       margin: 10px;
+       width: 850px;
+       content-align: center;
+       background-image: url(https://cdn.pixabay.com/photo/2016/04/18/22/05/seashells-1337565__340.jpg);
+}
+button
+ { 
+     background-color: #4CAF50;  
+     width: 20%;  
+     color: white;  
+     padding: 15px;  
+     margin: 10px 0px;     
+     border: none;     
+     cursor: pointer;    
+ }  
+ form
+{     
+  border: 3px solid #f1f1f1;  
+   }  
+ input[type=text], input[type=password]
+ {  
+     width: 50%;  
+     margin: 8px 0;  
+     padding: 12px 20px;  
+     display: inline-block;  
+     border: 2px solid black;  
+     box-sizing: border-box; 
+  }
+ button:hover{      
+ opacity: 0.7;     }  
+  .cancelbtn{ 
+        width: auto;       
+        padding: 8px 16px;  
+        margin: 10px 5px;   }  
+ .container
+ {  
+        padding: 20px;  
+        border: 40px;
+        background-color: lightblue;  
+  }  
+ </style>
+</head>  
+<body>    
+    <center>
+ <h1> user Login </h1>
+</center> 
+    <form>  
+        <div class="container"> 
+            <label>User name : </label>   
+            <input type="text" placeholder="Enter User name" name="username" required>  
+            <br>
+            <label>Password : </label>           
+  <input type="password" placeholder="Enter Password" name="password" required> 
+  <br>   
+         <button type="submit">Login</button>             
+<div>       
+ </div> Forgot <a href="#"> password? </a>  
+   </div>
+    </form>    
+</body>    
+</html>
