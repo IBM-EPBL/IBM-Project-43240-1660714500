@@ -1,0 +1,153 @@
+input[type=checkbox].css-checkbox {
+  position: absolute;
+  z-index: -1000;
+  left: -1000px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
+
+input[type=checkbox].css-checkbox + label.css-label {
+  padding-left: 35px;
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+  line-height: 30px;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  /*font-size: 30px;*/
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+input[type=checkbox].css-checkbox:checked + label.css-label {
+  background-position: 0 -30px;
+}
+
+label.css-label {
+  background-image: url(http://csscheckbox.com/checkboxes/u/csscheckbox_2e5ac342c462fb9a5023b3d13705e60b.png);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.checkboxes {
+}
+
+button.btn.btn-default.login {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 5px;
+  width: 90%;
+  border-radius: 0;
+  height: 2em;
+  background: #26C281;
+  border: 0;
+}
+
+input.styled {
+  background: #888 !important;
+  border: none !important;
+  color: #000 !important;
+}
+
+.checkbox:before {
+  border-radius: 0;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top {
+  background: #26C281;
+  border: 0;
+  color: white;
+}
+
+.radio label, .checkbox label {
+  color: gray;
+}
+
+.radio, .checkbox {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  float: left;
+}
+
+.register {
+  /*margin: auto;*/
+  float: right;
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.remember {
+  float: right;
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  width: 300px;
+}
+
+.input-login {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 90%;
+}
+
+<div class="checkbox" > <label > <input type="checkbox" / > Label </label > </div > {
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  background-color: transparent;
+}
+
+.navbar-collapse.collapse {
+}
+
+li.active {
+  background: #00B16A;
+  box-shadow: 0 1px 0px 0px #00B16A;
+}
+
+.navbar-default .navbar-nav > .active > a {
+  background-color: #00B16A;
+  box-shadow: 0 1px 0px 0px #00B16A;
+  background-image: none;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  background: #00B16A;
+}
+
+a {
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  background-color: #00B16A;
+  color: #ffffff;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #2c3e50;
+}
+

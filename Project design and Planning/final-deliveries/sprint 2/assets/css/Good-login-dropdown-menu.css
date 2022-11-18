@@ -1,0 +1,80 @@
+button.btn.btn-default.login {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 5px;
+  width: 90%;
+  border-radius: 0;
+  height: 2em;
+  background: #26C281;
+  border: 0;
+}
+
+input.styled {
+  background: #888 !important;
+  border: none !important;
+  color: #000 !important;
+}
+
+.checkbox:before {
+  border-radius: 0;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top {
+  background: #26C281;
+  border: 0;
+  color: white;
+}
+
+.radio label, .checkbox label {
+  color: gray;
+}
+
+.radio, .checkbox {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  float: left;
+}
+
+.register {
+  /*margin: auto;*/
+  float: right;
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.remember {
+  float: right;
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  width: 300px;
+}
+
+.input-login {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 90%;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  background: #00B16A;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  background-color: #00B16A;
+  color: #ffffff;
+}
+
