@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
       
     <link rel="stylesheet" href="{{url_for('static', filename='styles/style.css')}}">
+    <link rel="stylesheet" href="static/styles/style.css">
     <style>
  input[type="file"] {
         position: absolute;
@@ -25,8 +26,8 @@
         padding: 12px 18px;
         cursor: pointer;
         border-radius: 5px;
-        background-color:#45ff55;
-        font-size: 16px;
+        background-color:#049;
+        font-size: 30px;
         font-weight: bold;
         color: #fff;
       }
@@ -51,9 +52,9 @@
                 
                 <div class="inputBox"  >
                       
-                    <select name="cc" style="width: 100%;background:#45ff55;border:none;position: relative;height:45px;outline: none;color: aliceblue;border-radius: 4px;">
-                        <option value="shirt">SHIRT</option>
-                        <option value="pant">PANT</option>
+                    <select name="cc" style="width: 100%;background:#be29cc;border:none;position: relative;height:45px;outline: none;color: aliceblue;border-radius: 4px;">
+                        
+                        <option value="pant">PANT</option><option value="shirt">SHIRT</option>
                         <option value="watch">WATCH</option>
                         <option value="ring">RING</option>
                     </select>
@@ -75,13 +76,26 @@
                     <span > <span class="font">IMAGE</span></span>
                     <i></i>
                 </div>
-                <div class="inputBox"  >
+                <div class="inputBox">
                   <input type="text" name="categorie" required>
-                  <span > <span class="font">categorie</span></span>
+                  <span > <span class="font">CATAGORIES</span></span>
+                  <select name="cc" style="width: 100%;background:#be29cc;border:none;position: relative;height:45px;outline: none;color: aliceblue;border-radius: 4px;">
+                    <option value="shirt">MEN</option>
+                    <option value="pant">WOMEN</option>
+                    <option value="watch">KID</option>
+                    <option value="ring">ACCESORIES</option>
+                </select>
+
+                  <i></i>
                 </div>
-                <br> 
-                
-                <input type="submit" value="enter">
+                <div class="inputBox">
+                  <input type="text" name="size" required>
+                  <span > <span class="font">SIZE</span></span>
+                  <i></i>
+                </div>
+                <br> <label for="kk">submit</label>
+                <input type="submit" value="Login">
+                <input for="kk"type="submit"  value="enter">
             </div>
         </div>
     </form>

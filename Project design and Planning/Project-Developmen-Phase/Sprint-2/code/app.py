@@ -241,6 +241,9 @@ def dis():
       watch = ibm_db.fetch_both(stmt2)
   print(watch_list) 
   return render_template('home.html',watchs=watch_list)
+@app.route("/add")
+def add():
+  return render_template("addproduct.html")
    
 
 

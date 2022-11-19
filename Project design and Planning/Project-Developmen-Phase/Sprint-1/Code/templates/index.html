@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="//db.onlinewebfonts.com/c/d8a3c95906aec0c2483082a82e72cb40?family=WanderlustShine-Regular" rel="stylesheet" type="text/css"/>
-      
+    <link rel="stylesheet" href="static/styles/Footer-with-social-media-icons.css"> 
     
     <title>SMART FASHION RECOMMENDED APPLICATION</title>
     <style>
@@ -43,7 +43,7 @@ body{
         .navbar a {
         float: right;
         display: block;
-        color: #21e231;
+        color: #f5ae14;
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
@@ -56,7 +56,7 @@ body{
         }
         .navbar h3{
             padding: 12px 12px;
-            color: #21e231;
+            color: #f5ae14;
             font-size: 5vh;
             font-weight: 700;
             top:0;
@@ -98,14 +98,14 @@ body{
             font-family: 'Poppins', sans-serif;
             font-weight: bolder;
             text-decoration: none;
-            background: #21e231;
+            background: #f5ae14;
             padding: 5px;
             border-radius: 10px;
 
         }
         .con a:hover{
             background:#f2f2f2;
-            color: #21e231;
+            color: #f5ae14;
             cursor: pointer;
             font-family: 'Poppins', sans-serif;
             font-weight: bolder;
@@ -168,14 +168,14 @@ body{
             <a href="/login">SIGN IN </a>
             <div class="title">
            <!-- <div class="image"> <img src="{{url_for('static', filename='logo.png')}}"></div> -->
-            <div><h3 style="right:0;font-family:'Lobster', cursive;">InfiniteArt </h3></div>
+            <div><h3 style="right:0;font-family:'Lobster', cursive;">Explore Things </h3></div>
             </div>
      
         </div>
       <div class="banner">
         <div class="con">
         
-        <div class="get"><h1><span style="color:#21e231; ">SMART FASHION RECOMMENDER APPLICATION,</span> unlimitted access to all fashion items</h1><br>
+        <div class="get"><h1><span style="color:#f5ae14; ">SMART FASHION RECOMMENDER APPLICATION,</span> unlimitted access to all fashion items</h1><br>
             <a href="/register"  name="get started">GET STARTED &#8594;</a></div>
        </div>
       </div>
@@ -185,7 +185,7 @@ body{
              <img src="{{url_for('static',filename='about.png')}}">
 
                 <div class="txt">
-                    <p><h3 style="color:#21e231;">A warm welcome to your online fashion lane.</h3>
+                    <p><h3 style="color:#f5ae14;">A warm welcome to your online fashion lane.</h3>
 
                     We are aware of how much you value fashion and how much you enjoy online shopping's convenience. When you're on the go, the InfiniteArt online shopping app makes sure you don't miss out on a chic shopping experience. If you want to shop for clothing for men and women, shoes, accessories, or even the newest electronics and tech gadgets, InfiniteArt is always there to meet all of your style needs
                 </p></div>
@@ -196,7 +196,7 @@ body{
              <img src="{{url_for('static',filename='cart.png')}}">
 
                 <div class="txt">
-                    <p><h3 style="color:#21e231;">Your Favourite Items are here.</h3>
+                    <p><h3 style="color:#f5ae14;">Your Favourite Items are here.</h3>
 
                         Here, we used a recommendation system that is to categorise the user's clothing and suggest the best outfit for a particular occasion based on a recommendation algorithm. The suggested system demonstrates that it can analyse the user's attire from the images, determine the type and colour of the outfit, and then suggest the most appropriate outfit for the situation based on the user's current attire.
                 </p></div>
@@ -207,12 +207,42 @@ body{
              <img src="{{url_for('static',filename='chatbot.png')}}">
 
                 <div class="txt">
-                    <p><h3 style="color:#21e231;">Your Heleper Is Here.</h3>
+                    <p><h3 style="color:#f5ae14;">Your Heleper Is Here.</h3>
 
                         Chatbots can also be used to gather visitor data, which can then be used to improve product recommendations and suggestions. You can personalise product pages and increase customer loyalty and affinity by having a thorough understanding of customer inquiries, needs, and preferences. Chatbots can also inform customers when an item is out of stock, suggest suitable alternatives based on their preferences, and let them know when their order is expected to arrive.
                 </p></div>
       
       </div>
+      <script>
+        window.watsonAssistantChatOptions = {
+          integrationID: "3f10e2e8-7169-49a7-a60b-9f74d96acf9e", // The ID of this integration.
+          region: "eu-de", // The region your integration is hosted in.
+          serviceInstanceID: "c3fcb8e2-01d4-4309-9f36-ecc2152d022a", // The ID of your service instance.
+          onLoad: function(instance) { instance.render(); }
+        };
+        setTimeout(function(){
+          const t=document.createElement('script');
+          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+          document.head.appendChild(t);
+        });
+      </script>
       <div class="devlopers"></div>
+
+      <footer id="footerpad">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-8 mx-auto">
+                    <ul class="list-inline text-center">
+                        <li class="list-inline-item"><a href="#"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></a></li>
+                        <li class="list-inline-item"><a href="#"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span></a></li>
+                        <li class="list-inline-item"><a href="#"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-instagram fa-stack-1x fa-inverse"></i></span></a></li>
+                        <li class="list-inline-item"><a href="#"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-linkedin fa-stack-1x fa-inverse"></i></span></a></li>
+                    </ul>
+                    <p class="copyright text-muted text-center">Copyright © smart fashion recommender@googlers| Web Design by Designer</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
