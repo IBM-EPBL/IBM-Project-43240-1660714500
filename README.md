@@ -1,7 +1,9 @@
+<div align="center">
 <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg"  align="center" alt="drawing" width="200" />
-<h1>TEAM ID:IBM-Project-43240-1660714500</h1>
+<h1>IBM-Project-43240-1660714500</h1>
 <h1>Smart Fashion Recommender Application</h1>
-<img src="https://www.myyyi.com/wp-content/uploads/2022/04/ecommerce.gif" align="center" width="300" height="200"/>
+<img src="https://www.myyyi.com/wp-content/uploads/2022/04/ecommerce.gif" align="center" width="400" height="300"/>
+</div>
 
 <h3>Problem Statement:</h3>
 Customer can use the app to browse the products and add them to their shopping cart. The bot will assist users in receiving product recommendation.
